@@ -3,7 +3,9 @@ import {View, Text, ImageBackground} from "react-native";
 import styles from "./styles";
 import Button from "../Buttons";
 
-const CarItem = ({title, subTitle, subTitleCTA, backgroundImage}) => {
+const CarItem = (props) => {
+
+	const {title, subTitle, subTitleCTA, backgroundImage} = props.car;
 
 	const handleOnPress = () => {
 		console.warn("Hey there");
