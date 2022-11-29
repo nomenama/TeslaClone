@@ -1,3 +1,3 @@
-# TeslaClone created in React Native
+# Tesla Mobile App created in React Native
 
 ##Clone Tesla mobile app
