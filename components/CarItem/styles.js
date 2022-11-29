@@ -13,19 +13,29 @@ const styles = StyleSheet.create({
 	},
 
 	title: {
-		fontSize: "40px",
+		fontSize: 40,
 		fontWeight: "500",
 	},
 
 	subTitle: {
-		fontSize: "16px",
+		fontSize: 16,
 		color: "#5c5e62"
+	},
+
+	subTitleCTA: {
+		textDecorationLine: "underline",
 	},
 
 	backgroundImage: {
 		width: "100%",
 		height: "100%",
 		position: "absolute"
+	},
+
+	buttonContainer: {
+		position: "absolute",
+		bottom: 50,
+		width: "100%"
 	}
 });
 
