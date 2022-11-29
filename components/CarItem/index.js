@@ -7,8 +7,8 @@ const CarItem = (props) => {
 
 	const {title, subTitle, subTitleCTA, backgroundImage} = props.car;
 
-	const handleOnPress = () => {
-		console.warn("Hey there");
+	const handleOnPress = (content) => {
+		console.warn(`You clicked on ${content}`);
 	}
 
 	return (
